@@ -1,0 +1,315 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+body {
+
+    /* Add a background color or image */
+    background-image: url('');
+    background:  #1B2727;
+    width:auto;
+    height:auto;
+          
+
+    /* Customize the font, size, and color for text*/
+    font-family: Arial;
+    font-size: 16px;
+/*     color:white; */
+
+    /* Adjust the padding and margins */
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+ h1{
+    color: whitesmoke;
+/*    text-align: center; */
+   font-family: monospace;
+}
+
+h2 {
+    color: #B2C5B2;
+    font-family: serif,garamond;
+
+}
+
+h3 {
+  color:#A4AC86;
+  font-family: monospace,lucida-console;
+}
+h4 {
+  color: white;
+}
+
+p {
+    color: white;
+    font-family: monospace;
+
+}
+/* unvisited link */
+a:link {
+  color: #E2DCCE;
+}
+
+/* visited link */
+a:visited {
+  color: #7C976C;
+}
+
+/* mouse hover link */
+a:hover {
+  color: #7EC384;
+}
+
+/* selected link */
+a:active {
+  color: #3F7856;
+}
+.important {
+  color: #B2C5B2;
+  font-size: 25px;
+  text-align:center;
+  
+} 
+#interesting {
+    color: #517470;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+  
+}
+#abt-my-topic-title{
+    font-weight: bold;
+    font-size: 40px;
+  
+}
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+ol {
+
+}
+ol li {
+
+}
+
+/* NAV BAR  */
+
+ ul.navbar { 
+   list-style-type: none; 
+   overflow: hidden;  
+   position: fixed;  
+   top: 0; 
+   margin-bottom: 0px;
+/*    background-color:  #B2C5B2;  */
+ } 
+#nav-home{
+  margin-right: 30px;
+  float: left;
+}
+#nav-resources{
+  margin-right: 30px;
+  float: left;
+}
+#nav-about{
+  margin-right:30px;
+  float: left;
+}
+#nav-impact{
+  margin-right:30px;
+  float: left;
+}
+#nav-data{
+  margin-right:30px;
+  float: left;
+}
+
+/* Customize Dark Mode Theme */
+#theme-button {
+background-color:  #B2C5B2; 
+  border: none;
+  border-radius: 10px;
+  color: #3F7856;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  font-family: monospace,lucida-console;
+  text-decoration: none;
+  display: block;
+  padding: 10px 10px;
+  margin: 4px 5px;
+  float: left;
+}
+#theme-button:hover{
+  color: #D2DDDF;
+}
+.dark-mode {
+background-color: black;
+color:white;
+
+}
+
+/* ID's links for Nav Bar */
+#home-link{
+  display:block;
+  text-decoration: none;
+  color: #517470;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+#resource-link{
+  display:block;
+  text-decoration: none;
+  color: #517470;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+#abt-link{
+  display:block;
+  text-decoration: none;
+  color: #517470;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+#data-link{
+  display:block;
+  text-decoration: none;
+  color: #517470;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+#impact-link{
+  display:block;
+  text-decoration: none;
+  color: #517470;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+#abt-link:hover{
+  color: #D2DDDF;
+}
+#resource-link:hover{
+  color:#D2DDDF;
+}
+#home-link:hover{
+  color: #D2DDDF;
+}
+#data-link:hover{
+  color: #D2DDDF;
+}
+#impact-link:hover{
+  color: #D2DDDF;
+}
+
+
+ul li {
+  
+}
+
+/*HEADER CONTAINER*/
+.header-container{
+  display: flex; 
+  flex-direction: column; 
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* ABOUT AND HEADER IMAGE CONTAINER */
+.abt-img-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+/* HEADER IMAGE */
+.header-item:nth-of-type(1){
+  width:50%; 
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+/*HEADER ABOUT PARAGRAPH  */
+.header-item:nth-of-type(2){
+width:50%; 
+padding-right: 10px;
+}
+
+/* DataContainer */
+.data-container{
+  display: flex; 
+  flex-direction: column; 
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* data percents */
+.data-item:nth-of-type(1){
+  width:50%; 
+  padding-right: 10px;
+  padding-left: 20px;
+  
+}
+/* data image with caption */
+.data-item:nth-of-type(2){
+  width:50%; 
+  padding-right: 10px;
+  
+}
+
+/*PETITION  */
+.petition-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+  
+}
+.petition-para{
+  width: 55%;
+  padding-right: 10px;
+  
+}
+.signatures{
+  width: 45%;
+  padding-right: 10px;
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+
+/* FOOTER */
+.footer{
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7C976C;
+  text-align: center;
+  text-decoration-line: none;
+}
